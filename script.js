@@ -49,7 +49,7 @@ fetch(link)
             <div class="card h-100 shadow-sm">
               <img src="${book.img}" class="card-img-top" alt="${book.title}">
               <div class="card-body d-flex flex-column justify-content-between">
-                <h5 class="card-title">${book.title}</h5>
+                <h5 class="card-title text-truncate">${book.title}</h5>
                 <p class="card-text">Prezzo: € ${book.price.toFixed(2)}</p>
                 <div class="mt-auto d-flex justify-content-between">
                   <button class="btn btn-danger scarta-btn">Scarta</button>
